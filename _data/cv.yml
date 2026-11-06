@@ -96,7 +96,8 @@ cv:
         keywords: [GRU, LSTM, BiLSTM, TCN, kernel SVR, ARX system identification, real-time causal inference]
       - name: Sensing & Experiments
         icon: fa-solid fa-wave-square
-        keywords: [PVDF sensor integration, signal-conditioning front ends, NI-DAQmx, synchronized camera acquisition, water channel, wind tunnel, LabVIEW]
+        keywords:
+          [PVDF sensor integration, signal-conditioning front ends, NI-DAQmx, synchronized camera acquisition, water channel, wind tunnel, LabVIEW]
       - name: Programming
         icon: fa-solid fa-code
         keywords: [MATLAB, Python, C++, LaTeX]

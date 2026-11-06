@@ -31,7 +31,7 @@ I am a Ph.D. candidate at **Peking University** (expected 2027), supervised by P
 
 On the simulation side, I work on CFD and fluid-structure interaction (FSI), aerodynamic and hydrodynamic shape optimization, and surrogate-based design. On the sensing side, I build soft bodies with embedded piezoelectric (PVDF) films, together with the signal-conditioning hardware and synchronized data acquisition around them. I then use machine learning to estimate body shape, flow conditions, and position from the sensor signals, in real time in water-channel tests.
 
-My thesis, *Bio-Inspired Soft Bodies in Flow: Energy Harvesting, Proprioception, and Underwater Sensing*, connects these strands. The same flexible body that harvests energy from the flow also senses its own deformation and its surroundings.
+My thesis, _Bio-Inspired Soft Bodies in Flow: Energy Harvesting, Proprioception, and Underwater Sensing_, connects these strands. The same flexible body that harvests energy from the flow also senses its own deformation and its surroundings.
 
 Before my Ph.D., I spent more than three years as a CFD/CAE engineer in aerospace, renewable energy, and fluid machinery. I hold an M.S. in Mechanics from Xi'an Jiaotong University and a B.S. in Aerospace Engineering from the Institute of Space Technology, Islamabad. In 2024 I was a visiting researcher at the Max Planck Institute of Animal Behavior in Konstanz, Germany.
 
