@@ -1,14 +1,6 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # automatic runs on push are turned off: _data/cv.yml is written for the website CV page, not for RenderCV
   workflow_call:
   workflow_dispatch:
 permissions:
