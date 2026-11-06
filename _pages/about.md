@@ -2,33 +2,37 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate, <a href='https://www.pku.edu.cn/' target='_blank'>Peking University</a>. CFD/FSI simulation and embedded sensing.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: # add prof_pic.jpg here later to show a photo
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>College of Engineering</p>
+    <p>Peking University</p>
+    <p>Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate at **Peking University** (expected 2027), supervised by Prof. Guangming Xie. My work sits at the intersection of **fluid-structure simulation** and **embedded sensing** for bio-inspired soft bodies in flow.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+On the simulation side, I work on CFD and fluid-structure interaction (FSI), aerodynamic and hydrodynamic shape optimization, and surrogate-based design. On the sensing side, I build soft bodies with embedded piezoelectric (PVDF) films, together with the signal-conditioning hardware and synchronized data acquisition around them. I then use machine learning to estimate body shape, flow conditions, and position from the sensor signals, in real time in water-channel tests.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My thesis, *Bio-Inspired Soft Bodies in Flow: Energy Harvesting, Proprioception, and Underwater Sensing*, connects these strands. The same flexible body that harvests energy from the flow also senses its own deformation and its surroundings.
+
+Before my Ph.D., I spent more than three years as a CFD/CAE engineer in aerospace, renewable energy, and fluid machinery. I hold an M.S. in Mechanics from Xi'an Jiaotong University and a B.S. in Aerospace Engineering from the Institute of Space Technology, Islamabad. In 2024 I was a visiting researcher at the Max Planck Institute of Animal Behavior in Konstanz, Germany.
+
+I am open to R&D roles in CFD/CAE simulation, multiphysics modeling, and sensing.
