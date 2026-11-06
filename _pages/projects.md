@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Selected simulation and sensing projects.
+title: Research
+permalink: /research/
+description: Simulation and sensing work.
 nav: true
 nav_order: 2
 display_categories: [simulation, sensing]

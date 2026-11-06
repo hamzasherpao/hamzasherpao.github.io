@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate, <a href='https://www.pku.edu.cn/' target='_blank'>Peking University</a>. CFD/FSI simulation and embedded sensing.
 
 profile:
   align: right
-  image: # add prof_pic.jpg here later to show a photo
+  image: https://github.com/hamzasherpao.png?size=460 # same photo as the GitHub profile
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>College of Engineering</p>

@@ -7,7 +7,7 @@ first_name: Muhammad
 middle_name:
 last_name: Hamza
 contact_note: >
-  Email is the best way to reach me: hamza [at] stu.pku.edu.cn
+  Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Muhammad Hamza, Ph.D. candidate at Peking University working on CFD/FSI simulation and embedded sensing for soft bodies in flow.
 footer_text: >
