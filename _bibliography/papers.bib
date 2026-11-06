@@ -9,7 +9,6 @@
   journal     = {IEEE/ASME Transactions on Mechatronics},
   year        = {2026},
   doi         = {10.1109/TMECH.2026.3748317},
-  html        = {https://doi.org/10.1109/TMECH.2026.3748317},
   dimensions  = {true},
   selected    = {true},
   abstract    = {Soft fluidic actuators (SFAs) are promising for underwater manipulation and embodied soft systems, but they are often modeled and designed using structural finite element analysis that neglects coupled fluid loading, which can bias the pressure–deformation response that the design process relies on. This paper introduces a two-way external fluid–structure interaction (FSI) framework for geometric optimization of underwater SFAs, combining coupled simulation with surrogate response surfaces and constrained search over a parameterized design space. We first quantify the modeling gap by comparing baseline structural FEM predictions with two-way external-FSI predictions for the same geometry. We then train surrogate non-parametric regression (NPR) response surfaces from a broad design-of-experiments dataset and perform two optimizations, one driven by FEM-only data and one driven by FSI data, followed by high-fidelity two-way coupled verification. Experimental validation shows that the resulting FSI optimum achieves similar bending performance at 30% lower pressure relative to the FEM optimum while increasing bending angle by 46%. System-level tests confirm these gains transfer to practice, with pull-force measurements showing a 58% mean improvement in retention force and a fish-like body with paired actuators achieving 24.8% higher forward velocity.},
@@ -24,11 +23,11 @@
   journal     = {Energy},
   year        = {2026},
   doi         = {10.1016/j.energy.2026.140825},
-  html        = {https://doi.org/10.1016/j.energy.2026.140825},
   dimensions  = {true},
   selected    = {true},
   abstract    = {Conventional flow-induced energy harvesters often rely on idealized NACA foils or simplified shapes that omit key morphological features of natural swimmers—such as curvature, camber variation, and tapering—that govern vortex capture and pressure recovery. Recognizing the performance advantages embedded in these biological traits and building on vortex-exploitation strategies observed in Kármán gaiting, this study develops a koi-carp-derived flexible hydrofoil and systematically optimizes its geometry for bio-inspired flow-energy harvesting. A compact parametric representation of the fish cross-section is formulated, enabling direct geometric manipulation and surrogate-based refinement of the foil’s thickness distribution. Two-way coupled fluid–structure interaction (FSI) simulations evaluate sampled geometries and train a data-driven surrogate model, forming the basis of a multi-objective optimization strategy that enhances synchronization with the unsteady bluff-body wake. FSI comparisons show that the real fish foil outperforms canonical NACA profiles by up to 157% in harvested mechanical power, while the optimized hydrofoil achieves a further 122% increase. Fabricated foils were tested in a controlled water channel, where the optimized configuration delivered up to 30% higher electrical output with reduced numerical drag. A four-foil hydroelastic cascade harvester (HCH) deployed downstream of a bluff body produced a cumulative output of 2.34 μW and a peak single-foil power of 0.713 μW. Field deployment in a natural stream generated 3.82 mJ of electrical energy over 1 hour under low-velocity conditions, confirming stable passive operation. These results demonstrate that biologically derived geometry and surrogate-based optimization enable compact, fully passive hydroelastic harvesters for low-power underwater sensing and distributed flow-energy conversion.},
-  preview     = {hydro.jpg}
+  preview     = {hydro.jpg},
+  google_scholar_id = {d1gkVwhDpl0C}
 }
 
 @inproceedings{tanveer2026electrosense,
@@ -42,7 +41,8 @@
   arxiv       = {2606.03204},
   abstract    = {Underwater manipulation often occurs under degraded visibility due to turbidity, glare, and gripper occlusion, limiting the reliability of vision-based perception during approach and grasping. In such settings, soft grippers are well suited for compliant interaction, but they typically lack an onboard pre-contact cue that can guide approach and closure when vision is unreliable. This extended abstract explores active electrosense as a lightweight sensing modality that can provide a proximity-like signal prior to contact by measuring perturbations of an applied electric field in conductive media. We instrument an octopus-inspired gripper with a discrete electrode layout and record multi-channel sensing voltages using off-the-shelf hardware. Simulation and tank experiments with a suspended conductive sphere show structured, object-dependent changes in the multi-electrode voltage readout relative to empty-water baselines, with detectability varying across excitation of 5 to 20 V and frequencies from 1 mHz to 1 kHz. These findings motivate systematic investigation of gripper-integrated electrosense as a complementary pre-contact cue for underwater soft manipulation.},
   preview     = {exp.png},
-  html        = {https://openreview.net/forum?id=rdWW5xPrhN}
+  html        = {https://openreview.net/forum?id=rdWW5xPrhN},
+  google_scholar_id = {Y0pCki6q_DkC}
 }
 
 @article{afridi2026emg,
@@ -53,12 +53,12 @@
   journal     = {Advanced Intelligent Systems},
   year        = {2026},
   doi         = {10.1002/aisy.202501085},
-  html        = {https://doi.org/10.1002/aisy.202501085},
   dimensions  = {true},
   selected    = {true},
   abstract    = {Intelligent sensing systems that integrate biological signals with machine learning open new opportunities to understand and replicate animal locomotion in natural environments. Conventional telemetry methods capture only limited variables and cannot reconstruct detailed kinematics or hydrodynamic context. An electromyography (EMG)-driven intelligent telemetry framework is introduced that decodes both body pose and environmental conditions in freely swimming fish. A custom 16-channel telemetry unit recorded intramuscular EMG synchronized with kinematics across laminar flows at multiple speeds, two Kármán vortex streets, a reverse Kármán vortex street, and free-swimming trials. A deep neural network mapped feature-augmented EMG to joint angles in a head-fixed frame, enabling midline reconstruction with sub-centimeter accuracy (∼3.8\% body length) and joint angle prediction within 4° root mean squared error (R ≈ 0.81). The same pipeline classified flow regimes and discrete flow speeds with high accuracy. Channel-efficiency analysis identified mid-body axial electrodes as sufficient to capture most flow-relevant information, guiding minimizing electrode count and invasiveness. Predicted kinematics were validated through computational fluid dynamics simulations and robotic embodiment that replayed decoded swimming motions. These results establish EMG as a dual-purpose bio-signal for locomotor and environmental inference, demonstrating an AI-driven telemetry framework that links muscle activity, kinematics, and fluid interactions.},
   preview     = {emg.png},
-  website     = {https://emg-fish-kinematics.github.io/}
+  website     = {https://emg-fish-kinematics.github.io/},
+  google_scholar_id = {qjMakFHDy7sC}
 }
 
 @article{afridi2025bio2robot,
@@ -69,11 +69,12 @@
   journal     = {Advanced Intelligent Systems},
   year        = {2025},
   doi         = {10.1002/aisy.202501117},
-  html        = {https://doi.org/10.1002/aisy.202501117},
   dimensions  = {true},
   abstract    = {Swimming in fish arises from tightly integrated neural, muscular, skeletal, and hydrodynamic processes that are difficult to capture in compact, transferable models for robotics. We present an interpretable SySID approach that bidirectionally maps between EMG and kinematics in freely swimming koi, further testing its generalization to a robotic fish. Synchronized EMG and kinematics were collected across laminar, Kármán vortex, and reverse Kármán vortex flows spanning 0.146–0.274 m/s. A linear ARX model architecture was chosen to capture both feedforward (EMG to kinematics) and feedback (kinematics to EMG) pathways, enabling the extraction of key system parameters, such as natural frequency, damping ratio, and input–output delays. Cross-individual validation demonstrated robust performance and identified the best-performing fish-trained model, which was then evaluated for cross-domain transfer by replacing EMG input with processed PWM actuation signals from a robotic fish in laminar flow. Despite differences in mechanics and actuation physics, predictions closely matched measured trajectories (mean R² = 0.86 ± 0.13), substantially outperforming a DNN (97.8% higher PFI) trained on the same biological datasets. These findings demonstrate that compact, interpretable SySID models can achieve accurate bio-to-robot transfer, eliminating the need for robot-specific retraining and enabling robotic motion models to be grounded directly in biological function rather than imitation.},
   preview     = {tocfig.png},
-  website     = {https://bio-to-robot.github.io/}
+  website     = {https://bio-to-robot.github.io/},
+  selected    = {true},
+  google_scholar_id = {u-x6o8ySG0sC}
 }
 
 @article{afridi2025rspb,
@@ -84,9 +85,9 @@
   journal     = {Proceedings of the Royal Society B},
   year        = {2025},
   doi         = {10.1098/rspb.2025.0474},
-  html        = {https://doi.org/10.1098/rspb.2025.0474},
   dimensions  = {true},
   selected    = {true},
   abstract    = {In aquatic environments, muscle activity in free-swimming fishes not only propels body undulations to generate thrust but also serves as proprioceptive sensors for detecting surrounding fluid dynamics. Testing the proprioceptive function of the muscle is challenging owing to its deep integration with swimming activity. To address this, we introduce an experimental platform that records up to 12-channel electromyography (EMG) signals synchronized with detailed kinematics in koi and carp. We first apply various neural networks to map densely collected EMG signals to synchronized video-based body kinematics, thereby validating our EMG collection system. We then compare EMG data from fishes swimming in various laminar flows and within Kármán vortices. Our results show that the phase of muscle activity consistently precedes body kinematics in various laminar flows. While within Kármán vortices, we observe a mixed phase relationship, where muscle activity sometimes leads and at other times lags behind body kinematics. This suggests that fishes may use muscle proprioceptive sensing when interacting with complex flows, such as nearby vortices. Our research not only introduces novel methods for biological EMG studies but also offers insights that could influence the design of bio-inspired underwater sensory systems.},
-  preview     = {rspb_proprio.png}
+  preview     = {rspb_proprio.png},
+  google_scholar_id = {u5HHmVD_uO8C}
 }

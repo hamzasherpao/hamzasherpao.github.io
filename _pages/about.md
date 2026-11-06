@@ -9,7 +9,7 @@ profile:
   image: https://github.com/hamzasherpao.png?size=460 # same photo as the GitHub profile
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>College of Engineering</p>
+    <p>School of Advanced Manufacturing and Robotics</p>
     <p>Peking University</p>
     <p>Beijing, China</p>
 
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate at **Peking University** (expected 2027), supervised by Prof. Guangming Xie. My work sits at the intersection of **fluid-structure simulation** and **embedded sensing** for bio-inspired soft bodies in flow.
+I am a Ph.D. candidate at **Peking University** (expected 2027), supervised by Prof. Xie Guangming. My work sits at the intersection of **fluid-structure simulation** and **embedded sensing** for bio-inspired soft bodies in flow.
 
 On the simulation side, I work on CFD and fluid-structure interaction (FSI), aerodynamic and hydrodynamic shape optimization, and surrogate-based design. On the sensing side, I build soft bodies with embedded piezoelectric (PVDF) films, together with the signal-conditioning hardware and synchronized data acquisition around them. I then use machine learning to estimate body shape, flow conditions, and position from the sensor signals, in real time in water-channel tests.
 

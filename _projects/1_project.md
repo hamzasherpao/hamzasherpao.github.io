@@ -3,7 +3,7 @@ layout: page
 title: Hydrofoil Energy Harvester
 description: CFD and surrogate-based shape optimization of a bio-inspired flexible hydrofoil, validated in a water channel and in the field
 importance: 1
-category: simulation
+category: Simulation
 ---
 
 **Goal.** Harvest energy from water flow with a flexible, bio-inspired hydrofoil that carries an embedded PVDF piezoelectric film, and find the foil geometry that maximizes the harvested power.

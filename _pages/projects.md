@@ -5,7 +5,7 @@ permalink: /research/
 description: Simulation and sensing work.
 nav: true
 nav_order: 2
-display_categories: [simulation, sensing]
+display_categories: [Simulation, Sensing]
 horizontal: false
 ---
 

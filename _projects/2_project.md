@@ -3,7 +3,7 @@ layout: page
 title: Discrete-Adjoint Shape Optimization
 description: Adjoint-based aerodynamic shape optimization of a transonic wing and wind-turbine vortex generators
 importance: 2
-category: simulation
+category: Simulation
 ---
 
 **Goal.** Improve the aerodynamic performance of a wing and of wind-turbine vortex generators with gradient-based shape optimization, at a cost that does not grow with the number of design variables.

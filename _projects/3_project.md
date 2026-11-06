@@ -3,7 +3,7 @@ layout: page
 title: Soft-Foil Proprioception
 description: Reconstructing the dynamic shape of a soft foil in flow from its own embedded PVDF signals
 importance: 1
-category: sensing
+category: Sensing
 ---
 
 **Goal.** Let a soft body sense its own deformation. The PVDF film that harvests energy is also used as a sensor to reconstruct the body's midline shape while it moves in flow.

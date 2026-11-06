@@ -19,7 +19,7 @@ cv:
         studyType: Ph.D.
         start_date: 2023
         highlights:
-          - "Supervisor: Prof. Guangming Xie. Chinese Government Scholarship."
+          - "Supervisor: Prof. Xie Guangming. Chinese Government Scholarship."
           - "Research: bio-inspired soft bodies in flow, covering energy harvesting, proprioception, upstream body localization, and flow sensing with embedded PVDF signals."
           - Combines CFD optimization, FSI simulation, and water-channel experiments with machine-learning interpretation of sensor signals.
 
@@ -30,7 +30,7 @@ cv:
         start_date: 2019
         end_date: 2021
         highlights:
-          - "Supervisor: Prof. Yang Zhang. Chinese Government Scholarship."
+          - "Supervisor: Prof. Zhang Yang. Chinese Government Scholarship."
           - "Thesis: discrete adjoint method for aerodynamic shape optimization of the ONERA M6 wing and NREL S809 vortex generators (ANSYS Fluent, ANSYS ICEM)."
 
       - institution: Institute of Space Technology
@@ -65,7 +65,7 @@ cv:
 
       - company: Wanhu Aerospace Industry Co., Ltd.
         position: Aero Engineer, R&D
-        location: China
+        location: Jinan, China
         start_date: 2021
         end_date: 2022
         highlights:
@@ -111,9 +111,11 @@ cv:
         awarder: National Natural Science Foundation of China
         summary: Competitive research grant of 200,000 RMB.
       - title: Chinese Government Scholarship (Ph.D.)
+        date: 2023
         awarder: Peking University
         summary: Full funding, 2023 to 2027.
       - title: Chinese Government Scholarship (M.S.)
+        date: 2019
         awarder: Xi'an Jiaotong University
         summary: Full funding, 2019 to 2021.
 

@@ -3,7 +3,7 @@ layout: page
 title: Underwater Wake Sensing and Localization
 description: Estimating the upstream wake and the body's position behind a bluff body from embedded PVDF signals, in real time
 importance: 2
-category: sensing
+category: Sensing
 ---
 
 **Goal.** Use the same soft PVDF body to sense its surroundings: the scale of an upstream wake and the body's streamwise and lateral position relative to the upstream bluff body.
