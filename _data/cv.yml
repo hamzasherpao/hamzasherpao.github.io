@@ -40,7 +40,7 @@ cv:
         start_date: 2014
         end_date: 2018
         highlights:
-          - "Thesis: design, fabrication, and flight testing of a tube-launched micro aerial vehicle with retractable wings."
+          - "Thesis: design and analysis of a tube-launched micro aerial vehicle with foldable wings."
 
     Experience:
       - company: Max Planck Institute of Animal Behavior
@@ -106,6 +106,10 @@ cv:
         keywords: [SolidWorks, CATIA V5, Tecplot 360, ParaView, CFD-Post, FDM 3D printing]
 
     Awards:
+      - title: Social Work Award (社会工作奖)
+        date: 2026
+        awarder: Peking University
+        summary: University-level honor.
       - title: NSFC Research Fund for Excellent International PhD Students
         date: 2024
         awarder: National Natural Science Foundation of China
