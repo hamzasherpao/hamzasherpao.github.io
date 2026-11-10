@@ -50,6 +50,11 @@ ninja.data = [{
           description: "Estimating the upstream wake and the body&#39;s position behind a bluff body from embedded PVDF signals, in real time",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-tube-launched-mav",
+          title: 'Tube-Launched MAV',
+          description: "Design and analysis of a miniature air vehicle with foldable wings, launched from a tube",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
